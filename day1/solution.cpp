@@ -22,7 +22,7 @@ void solvePartTwo(map<size_t, size_t> deers)
         res += max->second;
         deers.erase(max->first);
     }
-    cout << res;
+    cout << res << '\n';
 }
 
 int main()
